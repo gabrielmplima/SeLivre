@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Se Livre</title>
+
+    <!-- FONTAWESOME -->
+
+    <script src="https://kit.fontawesome.com/929661f3ab.js" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700|Merriweather:400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- MEU CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SCRIPT -->
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" style="color: #DE2652" href="index.html">Se Livre</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" style="color: #DE2652;" href="produtos.html">Produtos</a>
+                    <a class="nav-item nav-link" href="contato.html">Contato</a>
+
+                </div>
+
+                <div class="icones d-flex align-items-center ml-auto">
+
+                    <a href="carrinho.html"><i class="fas fa-shopping-cart float-right"
+                            style="color: white; font-size: 1.5rem;"></i></a>
+
+                    <a href="login.html"><i class="fas fa-user ml-3 float-right"
+                            style="color: white; font-size: 1.5rem;"></i></a>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+
+        <!-- PRODUTOS -->
+
+        <div class="produtos my-5">
+
+            <!-- BUSCA -->
+
+            <input type="text" id="myFilter" class="form-control mb-5 busca" onkeyup="busca()"
+                placeholder="Procure o livro...">
+
+            <div class="row d-flex align-items-center text-center justify-content-center" id="myItems">
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/drama-1.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Extraordinário</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-1.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/drama-2.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Eleanor & Park</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-2.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/drama-3.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">O Menino do Pijama Listrado</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-3.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/drama-4.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deixe A Neve Cair</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-4.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/estudos-1.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vade Mecum Tradicional
+                            28ª Ed. 2019</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-5.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/estudos-2.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Direito Processual Penal
+                            16ª Ed. 2019</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-6.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/estudos-3.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Anatomia Orientada
+                            Para A Clínica</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-7.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/estudos-4.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidade Introdutória
+                            Livro Texto</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-8.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/romance-1.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">A Cinco Passos De Você</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-9.html" class="btn">Comprar</a>
+                    </div>
+
+                </div>
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/romance-2.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mais Que Amigos</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-10.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/romance-3.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Em Pedaços</h5>
+                        <br>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-11.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+
+
+                <div class="card mx-3 my-3" style="width: 250px; height: 400px;">
+                    <img src="images/romance-4.png" class="mx-auto mt-2" style="width: 150px;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">O Verão Que Mudou
+                            Minha Vida - Vol. 1</h5>
+                        <p class="card-text">R$20.00</p>
+                        <a href="produto-12.html" class="btn">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="row d-flex justify-content-center mt-5">
+
+            <img src="images/linha-footer.svg" style="width: 1150px;" class="mb-5" alt="Linha">
+
+            <div class="redes d-flex align-items-center mb-5">
+
+                <a href="http://www.facebook.com/gabrielmplima" target="_blank"><img src="images/facebook.svg"
+                        class="img-fluid mx-2" alt="Facebook Icon"></a>
+                <a href="http://www.instagram.com/gabrielmplima" target="_blank"><img src="images/instagram.svg"
+                        class="img-fluid mx-2" alt="Instagram Icon"></a>
+                <a href="http://www.twitter.com/meninoceos" target="_blank"><img src="images/twitter.svg"
+                        class="img-fluid mx-2" alt="Twitter Icon"></a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- BOOTSTRAP JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Se Livre</title>
+
+    <!-- FONTAWESOME -->
+
+    <script src="https://kit.fontawesome.com/929661f3ab.js" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700|Merriweather:400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- MEU CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SCRIPT -->
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" style="color: #DE2652" href="index.html">Se Livre</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="produtos.html">Produtos</a>
+                    <a class="nav-item nav-link" style="color: #DE2652;" href="#">Contato</a>
+
+                </div>
+
+                <div class="icones d-flex align-items-center ml-auto">
+
+                    <a href="carrinho.html"><i class="fas fa-shopping-cart float-right"
+                            style="color: white; font-size: 1.5rem;"></i></a>
+
+                    <a href="login.html"><i class="fas fa-user ml-3 float-right"
+                            style="color: white; font-size: 1.5rem;"></i></a>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- FORMULÁRIO DE CONTATO -->
+
+        <form>
+            <div class="form-row my-3">
+
+                <div class="form-group col-md-6">
+                    <label for="inputNome">Nome</label>
+                    <input type="name" class="form-control" id="inputNome" placeholder="Nome">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+
+            </div>
+            <div class="form-row my-3">
+
+                <div class="form-group col-md-6">
+                    <label for="inputNumeroPedido">Número do Pedido</label>
+                    <input type="text" class="form-control" id="inputNumeroPedido" placeholder="Número do Pedido">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="inputAssunto">Assunto</label>
+                    <select id="inputAssunto" class="form-control">
+                        <option selected>Selecione o assunto...</option>
+                        <option>Pedido Errado</option>
+                        <option>Devolução</option>
+                        <option>Problema com pagamento</option>
+                        <option>Livro Danificado</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-row my-3">
+
+                <div class="form-group col-12">
+                    <label for="FormControlTextarea">Mensagem</label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="6"></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit" onclick="mensagemContato()" class="btn center-block my-3">Enviar</button>
+
+        </form>
+
+        <!-- FOOTER -->
+
+        <div class="row d-flex justify-content-center mt-5">
+
+            <img src="images/linha-footer.svg" style="width: 1150px;" class="mb-5" alt="Linha">
+
+            <div class="redes d-flex align-items-center mb-5">
+
+                <a href="http://www.facebook.com/gabrielmplima" target="_blank"><img src="images/facebook.svg"
+                        class="img-fluid mx-2" alt="Facebook Icon"></a>
+                <a href="http://www.instagram.com/gabrielmplima" target="_blank"><img src="images/instagram.svg"
+                        class="img-fluid mx-2" alt="Instagram Icon"></a>
+                <a href="http://www.twitter.com/meninoceos" target="_blank"><img src="images/twitter.svg"
+                        class="img-fluid mx-2" alt="Twitter Icon"></a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- BOOTSTRAP JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

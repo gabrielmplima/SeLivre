@@ -1,0 +1,312 @@
+body {
+
+    background-color: #28292D;
+    margin: 0;
+
+}
+
+.navbar-brand {
+
+    transition: transform .2s;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.nav-link  {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color:white;
+    transition: transform .2s;
+
+}
+
+.icones .fas {
+
+    transition: transform .2s;
+
+}
+
+.icones .fas:hover, .navbar-brand:hover, .nav-link:hover  {
+
+    transform: scale(1.1);
+    color:white;
+
+}
+
+.carousel-principal .carousel .carousel-indicators .active {
+
+    background-color: #DE2652;
+
+} 
+
+.carousel-principal .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23DE2652' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-principal .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23DE2652' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+   .card {
+
+    background-color: #28292D ;
+    border: #545454 solid 3px;
+    border-radius: 5px;
+    
+
+   }
+
+   .card-body {
+
+    padding: 10px;
+
+   }
+
+   .btn {
+
+    width: 80%;
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    background-color: #DE2652;
+
+   }
+
+   .produtos h5 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: #DE2652;
+    font-size: 1.25rem;
+
+   }
+
+   .produtos p {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+
+   }
+   
+   .produtos h1 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+
+   }
+
+   .produtos h2 {
+
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #808183;
+
+   }
+
+    .busca {
+    background-image: url(images/search.svg); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-size: 25px;
+    width: 100%; /* Full-width */
+    height: 50px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+  }
+
+  form label, .form-check label {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: #DE2652;
+    font-size: 1.25rem;
+    text-align: left;
+
+  }
+
+  .form-control {
+
+    height: 50px;
+    width: 100%;
+
+  }
+
+  .login .btn {
+
+    width: 40%;
+
+  }
+
+  form .btn {
+
+    width: 100%;
+
+  }
+
+  textarea {
+
+    resize: none;
+
+  }
+
+  .login h1, .cadastro h1 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: #DE2652;
+    font-size: 3rem;
+
+  }
+
+  .login h2, .cadastro h2 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: rgba(222, 38, 81, 0.301);
+    font-size: 3rem;
+
+  }
+
+  .login h3, .cadastro h3 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    color: #DE2652;
+    font-size: 1.75rem;
+
+  }
+
+  .login a:hover, .cadastro a:hover {
+
+    text-decoration: none;
+
+  }
+
+  .livro h1, .carrinho h1 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #DE2652;
+
+  }
+
+  .arq {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+
+  }
+
+  .carrinho h2 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #DE2652;
+
+  }
+
+  .carrinho h4 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+
+  }
+
+  .prods {
+
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+
+  }
+
+  .carrinho .botao1 {
+
+    width: 290px;
+    height: 60px;
+    background-color: rgba(40, 41, 45, 0);
+    border: solid white 1px;
+    border-radius: 5px;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+
+  }
+
+  .carrinho .botao2 {
+
+    width: 290px;
+    height: 60px;
+    background-color:#DE2652;
+    border-radius: 5px;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+
+  }
+
+  .livro h2 {
+
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+
+  }
+
+  .livro h3, .carrinho h3, .video h3 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #DE2652;
+
+  }
+
+  .livro h4 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: black;
+
+  }
+
+  .livro p {
+
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    text-justify: auto;
+    text-align: left;
+    color: white;
+    letter-spacing: 1px;
+
+  }
+
+  .livro .btn {
+
+    width: 400px;
+    height: 40px;
+    background-color: #DE2652;
+
+  }
