@@ -82,15 +82,13 @@
 
             <div class="row">
 
-                <form>
+                <form action="formulario-cadastro.php" method="POST">
 
-                    <div class="form-check form-check-inline mt-3">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">Cliente</label>
-                    </div>
                     <div class="form-check form-check-inline mb-3">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Gerenciador</label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inputCliente" value="option2">
+                        <label class="form-check-label mr-3" for="inputCliente">Cliente</label>
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inputGerente" value="option2">
+                        <label class="form-check-label" for="inputGerente">Gerente</label>
                     </div>
 
                     <div class="form-row">
@@ -229,7 +227,7 @@
 
                     </div>
 
-                    <button type="submit" onclick="saveTextAsFile()" class="btn mt-3">Cadastrar</button>
+                    <button type="submit" class="btn mt-3">Cadastrar</button>
 
                 </form>
 

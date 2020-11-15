@@ -67,7 +67,7 @@
 
         <!-- FORMULÁRIO DE CONTATO -->
 
-        <form>
+        <form action="formulario-contato.php" method="POST">
             <div class="form-row my-3">
 
                 <div class="form-group col-md-6">
@@ -104,13 +104,13 @@
             <div class="form-row my-3">
 
                 <div class="form-group col-12">
-                    <label for="FormControlTextarea">Mensagem</label>
-                    <textarea class="form-control" id="FormControlTextarea" rows="6"></textarea>
+                    <label for="inputMensagem">Mensagem</label>
+                    <textarea class="form-control" id="inputMensagem" rows="6"></textarea>
                 </div>
 
             </div>
 
-            <button type="submit" onclick="mensagemContato()" class="btn center-block my-3">Enviar</button>
+            <button type="submit" class="btn center-block my-3">Enviar</button>
 
         </form>
 
